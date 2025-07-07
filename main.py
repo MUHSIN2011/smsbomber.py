@@ -5,6 +5,7 @@ from pyrogram import Client, filters
 import asyncio
 import time
 
+app = Client("my_account", api_id=api_id, api_hash=api_hash)
 
 
 api_id = 22884594  # API_ID-и худро ин ҷо гузор
