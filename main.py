@@ -10,6 +10,7 @@ import time
 api_id = 22884594  # API_ID-и худро ин ҷо гузор
 api_hash = "029a226c0c430b9f095f57303e52cab6"  # API_HASH-и худро ин ҷо гузор
 last_active = {}  # chat_id -> last active timestamp
+bot_token = "7741095182:AAFHmPfDrRjypuVqjLOOFKihzO6V5vSh5JM"  # 🔁 токени боти Telegram-и худ
 
 app = Client("my_account", api_id=api_id, api_hash=api_hash)
 
