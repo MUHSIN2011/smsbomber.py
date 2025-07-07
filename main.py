@@ -12,7 +12,14 @@ api_hash = "029a226c0c430b9f095f57303e52cab6"  # API_HASH-и худро ин ҷ�
 last_active = {}  # chat_id -> last active timestamp
 bot_token = "7741095182:AAFHmPfDrRjypuVqjLOOFKihzO6V5vSh5JM"  # 🔁 токени боти Telegram-и худ
 
-app = Client("my_account", api_id=api_id, api_hash=api_hash)
+phone_number = "+992901234567"  # Рақами телефонатро ҳамин ҷо навис
+
+app = Client(
+    "my_account",
+    api_id=api_id,
+    api_hash=api_hash,
+    phone_number=phone_number
+)
 
 # Шрифтҳо
 user_fonts = {}  # chat_id -> selected_font
